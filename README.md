@@ -90,7 +90,6 @@ The site is also live on **GitHub Pages** — enabled on `/docs`.
 - **Email** — [shaktipratapsingh04022006@gmail.com](mailto:shaktipratapsingh04022006@gmail.com)
 - **LinkedIn** — [shakti8808](https://www.linkedin.com/in/shakti8808/)
 - **GitHub** — [shakti8808](https://github.com/shakti8808)
-- **WhatsApp** — [+91 8808485343](https://wa.me/918808485343)
 - **Twitter/X** — [@shakti8808_](https://x.com/shakti8808_)
 - **Portfolio** — [shaktipratapsingh.vercel.app](https://shaktipratapsingh.vercel.app/)
 
