@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VXD98WGLW4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-VXD98WGLW4');
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Experience | Shakti Pratap Singh</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    // Silence Tailwind CDN production warning (acceptable for static portfolio).
+    if (window && window.console) {
+      const _w = console.warn;
+      console.warn = function (m) {
+        if (typeof m === 'string' && m.includes('cdn.tailwindcss.com should not be used in production')) return;
+        _w.apply(console, arguments);
+      };
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      font-family: "Montserrat", sans-serif;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    #particles {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+
+    #content {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    footer {
+      margin-top: auto;
+    }
+
+    .timeline-dot {
+      width: 16px;
+      height: 16px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      border-radius: 50%;
+      position: absolute;
+      left: -8px;
+      top: 8px;
+      border: 3px solid white;
+      box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.2);
+    }
+
+    .timeline-line {
+      position: absolute;
+      left: 0;
+      top: 24px;
+      bottom: -24px;
+      width: 2px;
+      background: linear-gradient(180deg, #667eea 0%, rgba(102, 126, 234, 0.2) 100%);
+    }
+
+    .experience-card {
+      position: relative;
+      padding-left: 32px;
+      margin-bottom: 32px;
+    }
+
+    .tech-badge {
+      display: inline-block;
+      padding: 4px 12px;
+      margin: 4px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 500;
+      background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+      border: 1px solid #667eea30;
+      color: #4a5568;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+
+  <!-- OG Tags -->
+  <meta property="og:title" content="Shakti Pratap Singh | Software Engineer" />
+  <meta property="og:site_name" content="Shakti Pratap Singh | Portfolio" />
+  <meta property="og:url" content="https://shakti8808.github.io/experience.html" />
+  <meta property="og:description" content="Software Engineer Intern @Amdocs | Computer Science graduate from NIT Agartala specializing in Cloud-Native, Kubernetes, AIOps, and Platform Engineering." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://shakti8808.github.io/assets/img/logo.png" />
+</head>
+
+<body class="montserrat">
+  <div id="particles" class="h-full"></div>
+  <div class="flex flex-col h-full w-full" id="content" style="min-height:100vh">
+    <header class="p-4 flex justify-center">
+      <nav class="flex justify-between bg-white/0 container rounded-lg p-4">
+        <div>
+          <h1 class="text-[16px] font-semibold uno text-black backdrop-blur-none">
+            <a href="index.html"><span class="sm:hidden">SP</span><span class="hidden sm:inline">Shakti Pratap
+                Singh</span></a>
+          </h1>
+        </div>
+        <div class="uno flex gap-4 text-[16px]">
+          <a href="projects.html">Projects</a>
+          <a href="experience.html">Experience</a>
+          <a href="about.html">About</a>
+        </div>
+      </nav>
+    </header>
+
+        <main class="flex-grow flex items-center justify-center">
+      <div class="text-center px-6">
+        <div class="text-7xl mb-6">🚧</div>
+        <h1 class="text-4xl font-semibold text-gray-800 mb-4">Coming Soon</h1>
+        <p class="text-gray-500 text-lg mb-8">This page is under construction. Check back soon!</p>
+        <a href="index.html" class="inline-flex items-center gap-2 px-5 py-2.5 bg-gray-800 text-white rounded-lg hover:bg-gray-700 transition-all duration-300 font-medium text-sm">
+          <i class="bi bi-house-fill"></i> Back to Home
+        </a>
+      </div>
+    </main>
+
+    <footer class="text-center p-4 text-xl">
+      Made with <i class="bi bi-heart-fill text-red-500"></i> by
+      <a href="index.html" class="text-blue-600">Shakti</a>.
+    </footer>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="assets/particles.js"></script>
+</body>
+
+</html>
